@@ -11,8 +11,11 @@ import SwiperCore, {
 } from 'swiper';
 SwiperCore.use([EffectCards]);
 
+
+
+
 export default function SwiperTest({data}) {
-  console.log(data)
+  // console.log(data)
   return (
     <Swiper
     effect={'cards'}
