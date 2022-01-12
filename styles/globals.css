@@ -1,16 +1,46 @@
+#app { height: 100% }
 html,
 body {
-  padding: 0;
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+
+html,
+body {
+  position: relative;
+  height: 100%;
 }
 
-* {
-  box-sizing: border-box;
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
 }
